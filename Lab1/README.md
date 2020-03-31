@@ -6,9 +6,9 @@ DBS深度优先遍历
 
 实验中共使用两份不同的代码：**simple.cpp**和**sudoku_solve.cpp**。
 
-**simple.cpp****:** 原生的数独求解代码，即本实验中所提供的代码，只能以单线程模式运行。
+**simple.cpp:** 原生的数独求解代码，即本实验中所提供的代码，只能以单线程模式运行。
 
-**sudoku_solve.cpp****:** 为适应多线程而在**simple.cpp**上进行了一系列的修改和增添而成。在**sudoku_solve.cpp**中，可通过参数的调节而控制线程数量。与**simple.cpp**相比，**sudoku_solve.cpp**的代码量多了五十行左右。注：**sudoku_solve.cpp**的多线程主要运用在DFS求解函数上，可以开多个线程分开求解样例，在求解进度上缩短时间。
+**sudoku_solve.cpp:** 为适应多线程而在**simple.cpp**上进行了一系列的修改和增添而成。在**sudoku_solve.cpp**中，可通过参数的调节而控制线程数量。与**simple.cpp**相比，**sudoku_solve.cpp**的代码量多了五十行左右。注：**sudoku_solve.cpp**的多线程主要运用在DFS求解函数上，可以开多个线程分开求解样例，在求解进度上缩短时间。
 
 如无特别说明，默认使用**sudoku_solve.cpp**。
 
